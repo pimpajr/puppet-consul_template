@@ -8,7 +8,7 @@ class consul_template::params {
   $install_method     = 'url'
   $package_name       = 'consul-template'
   $package_ensure     = 'latest'
-  $version            = '0.11.0'
+  $version            = '0.15.0'
   $download_url_base  = 'https://releases.hashicorp.com/consul-template/'
   $download_extension = 'zip'
   $user               = 'root'
